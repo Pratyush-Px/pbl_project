@@ -10,13 +10,13 @@ const Team = () => {
                 <div className="team-card glass-card">
                     <div className="role-badge">Project Guide</div>
                     <h3>Dr. Girish Sharma</h3>
-                    <p>Department of Computer Engineering</p>
+                    <p>Department of Computer Science and Engineering</p>
                 </div>
 
                 <div className="team-card glass-card">
                     <div className="role-badge">Student Developer</div>
                     <h3>Pratyush</h3>
-                    <p>B.Tech Computer Engineering</p>
+                    <p>B.Tech Computer Science and Engineering</p>
                     <p className="highlight"></p>
                 </div>
             </div>
