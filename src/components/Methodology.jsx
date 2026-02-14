@@ -18,8 +18,8 @@ const Methodology = () => {
                         Applies image preprocessing techniques including grayscale conversion, bilateral filtering, and adaptive thresholding to improve OCR accuracy.
                         All files are processed securely in memory without permanent storage.
                     </p>
-                    <div className="card-image-container" onClick={() => setSelectedImage('/images/flowchart.png')}>
-                        <img src="/images/flowchart.png" alt="Process Flowchart" className="card-thumbnail" />
+                    <div className="card-image-container" onClick={() => setSelectedImage(`${import.meta.env.BASE_URL}images/flowchart.png`)}>
+                        <img src={`${import.meta.env.BASE_URL}images/flowchart.png`} alt="Process Flowchart" className="card-thumbnail" />
                         <span className="expand-hint">Click to expand</span>
                     </div>
                 </div>
@@ -34,8 +34,8 @@ const Methodology = () => {
                         Implements rule-based parsing with Regular Expressions to identify key fields such as vendor name, invoice date, line items, quantities, and total amounts.
                         Designed as a modular and deterministic extraction pipeline.
                     </p>
-                    <div className="card-image-container" onClick={() => setSelectedImage('/images/detailed_system_working.png')}>
-                        <img src="/images/detailed_system_working.png" alt="System Architecture" className="card-thumbnail" />
+                    <div className="card-image-container" onClick={() => setSelectedImage(`${import.meta.env.BASE_URL}images/detailed_system_working.png`)}>
+                        <img src={`${import.meta.env.BASE_URL}images/detailed_system_working.png`} alt="System Architecture" className="card-thumbnail" />
                         <span className="expand-hint">Click to expand</span>
                     </div>
                 </div>
